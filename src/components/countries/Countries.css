@@ -1,0 +1,13 @@
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.visited-countries-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.visited-countries img {
+  width: 200px;
+  border-radius: 16px;
+}
